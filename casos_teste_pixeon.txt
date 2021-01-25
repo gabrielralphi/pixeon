@@ -1,0 +1,56 @@
+************************************ Ambiente de Teste **********************************
+Versão: 21012021
+Base de dados/IP (Origem e Destino): 127.0.0.1 (localhost)
+Portal: https://demos.creative-tim.com/notus-react/?_ga=2.154140984.1600938269.1610986568-1695319199.1610986568#/admin/settings
+Usuário: lucky.jesse
+Senha: 123456
+Browser: Chrome 87.0.4280.141 
+
+********************************** Cenário de testes **********************************
+
+Funcionalidade: My Account
+Como um usário do sistema
+Visualizar seus dados da conta
+Para que ele verifique seus próprios dados
+
+Contexto:
+Dado que o usuário tenha cadastrado seus dados anteriomente.
+
+Cenário: Visualizar dados da conta
+Dado que o usuário logue no sistema
+E ele acessa a página de Settings no menu lateral da esquerda
+Quando é exibido a página My account
+Então ele visualiza seus dados cadastradais
+
+---------------------------
+
+Funcionalidade: Sales Value
+Como um usário do sistema
+Visualizar gráfico de vendas por ano x mês
+Para que ele compare suas vendas por ano x mês
+
+Contexto:
+Dado que o usuário tenha feito vendas em anos diferentes e nos mesmos meses.
+
+Cenário: Gráfio Sales Value
+Dado que o usuário logue no sistema
+E ele acessa a página Dashboard no menu lateral da esquerda
+Quando a página é aberta
+Então o gráfico Sales Value com os valores das vendas por ano x mês é exibido na tela
+
+---------------------------
+
+Funcionalidade: Another Action
+Como um usário do sistema
+Fazer outra ação
+Para que ele consiga fazer outra ação
+
+Contexto:
+Dado que o usuário queira fazer outra ação
+
+Cenário: Fazer Another Action
+Dado que o usuário logue no sistema
+E ele clique em cima do botão com sua foto no canto superior direito
+Quando o menu é aberto
+E o usuário clica em Another Action
+Então ele é redirecionado para Another Action
